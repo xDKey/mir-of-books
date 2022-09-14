@@ -1,7 +1,7 @@
 const environment = process.env;
 
 const ormConfig = {
-  type: 'postgres',
+  type: 'mongodb',
   host: environment.DATABASE_HOST,
   port: Number(environment.DATABASE_PORT),
   username: environment.DATABASE_USER,
